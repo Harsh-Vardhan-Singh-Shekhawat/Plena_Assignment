@@ -64,6 +64,7 @@ const Home: NextPage = () => {
       console.log("supplied")
       setAmount(0)
       setLoading(false)
+      setBalance(balance-amount);
 
     } catch (e) { }
   }
